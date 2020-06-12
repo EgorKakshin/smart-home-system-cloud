@@ -1,0 +1,13 @@
+@import 'uikit/styles/color.scss';
+
+.button {
+    background-color: $green;
+    color: $white;
+    padding: 7px 20px;
+    text-transform: none;
+    margin: 0 10px;
+}
+
+.button:hover {
+    background-color: $greenHover;
+}

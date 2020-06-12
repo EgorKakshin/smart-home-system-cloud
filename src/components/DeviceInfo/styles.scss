@@ -1,0 +1,54 @@
+@import 'uikit/styles/color.scss';
+
+.device-info {
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    min-height: 172px;
+    background-color: $black;
+    margin: 20px 0;
+    border-radius: 10px;
+    @media screen and (max-width: 1500px) {
+        width: 400px;
+    }
+    @media screen and (max-width: 1335px) {
+        width: 350px;
+    }
+    @media screen and (max-width: 1170px) {
+        width: 450px;
+    }
+}
+
+.device-icon {
+    width: 70px;
+    height: 70px;
+    margin: 45px 60px 35px 40px;
+}
+
+.device-icon svg path {
+    fill: white !important;
+}
+
+.device-info-block {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.device-name {
+    font-size: 2.4em;
+    color: $white;
+    margin-bottom: 20px;
+}
+
+.device-control-button {
+    width: 200px;
+    background-color: $green;
+    @media screen and (max-width: 1335px) {
+        width: 150px;
+    }
+}
+
+.device-control-button:hover {
+    background-color: $greenHover;
+}

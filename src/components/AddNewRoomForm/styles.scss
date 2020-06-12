@@ -1,0 +1,57 @@
+@import 'uikit/styles/color';
+
+.addNewRoomForm {
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    background-color: $black;
+    border-radius: 10px;
+    @media screen and (max-width: 1500px) {
+        width: 400px;
+    }
+    @media screen and (max-width: 1335px) {
+        width: 350px;
+    }
+    @media screen and (max-width: 1170px) {
+        width: 450px;
+    }
+}
+
+.addNewRoomFields {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.roomNameField {
+    margin: 0 20px;
+}
+
+.roomNameField input, label {
+    color: white !important;
+}
+
+.addNewRoomButtonsBlock {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.addNewRoomButton {
+    background-color: $green;
+}
+
+.addNewRoomButton:hover {
+    background-color: $greenHover;
+}
+
+.cancelAddNewRoomButton {
+    background-color: $green;
+}
+
+.cancelAddNewRoomButton:hover {
+    background-color: $greenHover;
+}

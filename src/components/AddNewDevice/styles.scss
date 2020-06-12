@@ -1,0 +1,22 @@
+@import 'uikit/styles/color';
+
+.addNewDevice {
+    margin: 20px 0px 20px;
+    font-size: 1.4em;
+    color: $white;
+    width: 450px;
+    @media screen and (max-width: 1500px) {
+        width: 400px;
+    }
+    @media screen and (max-width: 1335px) {
+        width: 350px;
+    }
+    @media screen and (max-width: 1170px) {
+        width: 450px;
+    }
+}
+
+.addDeviceButton {
+    color: $green;
+    font-size: 56px !important;
+}

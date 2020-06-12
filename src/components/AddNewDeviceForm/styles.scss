@@ -1,0 +1,75 @@
+@import 'uikit/styles/color';
+
+.addNewDeviceForm {
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    background-color: $black;
+    border-radius: 10px;
+    @media screen and (max-width: 1500px) {
+        width: 400px;
+    }
+    @media screen and (max-width: 1335px) {
+        width: 350px;
+    }
+    @media screen and (max-width: 1170px) {
+        width: 450px;
+    }
+}
+
+.deviceIconFiled select {
+    color: white;
+}
+
+.deviceIconFiled option {
+    color: black;
+}
+
+.addNewDeviceFields {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.deviceNameField input, label {
+    color: white !important;
+}
+
+.deviceRoomField select {
+    color: white;
+}
+
+.deviceRoomField option {
+    color: black;
+}
+
+.addNewDeviceIcon {
+    width: 70px;
+    height: 70px;
+    margin: auto 60px auto 40px;
+}
+
+.addNewDeviceButtonsBlock {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.addNewDeviceButton {
+    background-color: $green;
+}
+
+.addNewDeviceButton:hover {
+    background-color: $greenHover;
+}
+
+.cancelAddNewDeviceButton {
+    background-color: $green;
+}
+
+.cancelAddNewDeviceButton:hover {
+    background-color: $greenHover;
+}

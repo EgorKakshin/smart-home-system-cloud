@@ -1,0 +1,12 @@
+@import 'uikit/styles/color';
+
+.deviceBlock {
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    background-color: $gray;
+}
